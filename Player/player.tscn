@@ -168,6 +168,7 @@ shape = SubResource( 9 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
+process_mode = 0
 smoothing_enabled = true
 smoothing_speed = 10.0
 editor_draw_drag_margin = true
