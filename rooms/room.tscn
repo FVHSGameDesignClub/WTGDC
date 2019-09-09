@@ -1,8 +1,16 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://NPC/Male1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://NPC/Female1.tscn" type="PackedScene" id=3]
 
 [node name="Node" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 117.831, 117.273 )
+position = Vector2( 129.511, 102.52 )
+
+[node name="Male1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 53.3668, 96.8821 )
+
+[node name="Female1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 220.953, 94.8997 )
