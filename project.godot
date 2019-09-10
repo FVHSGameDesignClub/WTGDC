@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Welcome to GDC"
-run/main_scene="res://rooms/room.tscn"
+run/main_scene="res://rooms/Main.tscn"
 config/icon="res://icon.png"
 
 [autoload]

@@ -1,0 +1,12 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 255.0
+margin_bottom = 142.0
+text = "Sorry this function is not available.
+Bro, I forgot how to make quit button.
+Just use close button of window title bar.
+
+error code: I am so lazy"
