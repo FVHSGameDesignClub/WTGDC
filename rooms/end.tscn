@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://music/ending.wav" type="AudioStream" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 255.0
+margin_bottom = 142.0
+text = "Welcome to Game Design Club again,
+I hope you enjoy your game designing
+lifes in our club
+thankyou again.
+
+REMEMBER: Our meeting is every
+Wednesday, Lunch. You can bring lunch to room.
+And don't forget Room number is 230!"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 1 )
+autoplay = true

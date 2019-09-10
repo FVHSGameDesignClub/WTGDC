@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://rooms/Control.gd" type="Script" id=1]
+[ext_resource path="res://Background/spite3.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_top = 1.0
+margin_right = 256.0
+margin_bottom = 142.0
+text = "The main character Nick is a Noob Freshman of FVHS!
+He got invitation from Game Design Club on Club Rush.
+He was interested in making game.
+He need to arrive Room 230 within lunch time. You may need FVHS map to expect location of Room 230
+You do it."
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 97.0027
+margin_top = 119.755
+margin_right = 167.003
+margin_bottom = 139.755
+flat = true
+
+[node name="Sprite" type="Sprite" parent="Control/Button"]
+position = Vector2( 22.8846, 11.2655 )
+scale = Vector2( 0.525626, 0.389163 )
+texture = ExtResource( 2 )
+[connection signal="pressed" from="Control/Button" to="Control" method="_on_Button_pressed"]

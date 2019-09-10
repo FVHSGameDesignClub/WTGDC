@@ -1,7 +1,9 @@
 extends Control
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://rooms/room.tscn")
+	get_tree().change_scene("res://rooms/story.tscn")
 
 func _on_Button2_pressed():
 	get_tree().change_scene("res://rooms/errorrr.tscn")
+
+
