@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://tiles/Tileset1.tres" type="TileSet" id=1]
 [ext_resource path="res://tiles/Tileset2.tres" type="TileSet" id=2]
@@ -17,6 +17,7 @@
 [ext_resource path="res://NPC/Female6.tscn" type="PackedScene" id=15]
 [ext_resource path="res://NPC/Female5.tscn" type="PackedScene" id=16]
 [ext_resource path="res://tiles/Tileset3.tres" type="TileSet" id=17]
+[ext_resource path="res://object/arrow.tscn" type="PackedScene" id=18]
 
 [node name="Node" type="Node"]
 
@@ -219,3 +220,9 @@ tile_set = ExtResource( 17 )
 cell_size = Vector2( 16, 16 )
 format = 1
 tile_data = PoolIntArray( 196619, 6, 0, 262153, 7, 0, 327689, 7, 0, 393225, 7, 0, 393227, 8, 0, 393228, 9, 0, 458761, 7, 0, 524292, 2, 0, 589825, 2, 0, 589831, 2, 0, 655364, 4, 0, 655373, 5, 0, 720897, 4, 0, 720903, 4, 0, 720905, 2, 0, 720909, 5, 0, 786445, 5, 0, 851976, 0, 0, 851977, 4, 0, 851981, 5, 0, 851989, 0, 0, 917517, 5, 0, 983053, 5, 0, 1048584, 3, 0, 1048589, 5, 0, 1114113, 2, 0, 1114125, 5, 0, 1179651, 2, 0, 1179654, 2, 0, 1179656, 4, 0, 1179661, 5, 0, 1245185, 4, 0, 1245197, 5, 0, 1310723, 4, 0, 1310726, 4, 0 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 18 )]
+position = Vector2( 501.614, 473.972 )
+
+[node name="StaticBody2D" parent="StaticBody2D" instance=ExtResource( 18 )]
+position = Vector2( -0.214661, 13.3076 )
