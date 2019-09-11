@@ -60,6 +60,8 @@ texture = ExtResource( 4 )
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 5 )
+volume_db = -0.22
+pitch_scale = 3.0
 autoplay = true
 [connection signal="pressed" from="Title/VBoxContainer/Button" to="Title" method="_on_Button_pressed"]
 [connection signal="pressed" from="Title/VBoxContainer/Button2" to="Title" method="_on_Button2_pressed"]

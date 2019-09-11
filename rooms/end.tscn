@@ -5,16 +5,15 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_right = 255.0
-margin_bottom = 142.0
+margin_left = 1.0
+margin_right = 264.0
+margin_bottom = 146.0
 text = "Welcome to Game Design Club again,
-I hope you enjoy your game designing
-lifes in our club
-thankyou again.
-
+I hope you enjoy activities in club
 REMEMBER: Our meeting is every
 Wednesday, Lunch. You can bring lunch to room.
-And don't forget Room number is 230!"
+And don't forget Room number is 230!
+P.S. And It just took 6 hours to make it. it alone. That's why that quality is so coool.                                    -president"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 1 )
